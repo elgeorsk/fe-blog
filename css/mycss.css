@@ -23,7 +23,7 @@ body {
 .flex-item:first-child{
     display:block;
     background-color: #014052;
-    padding: 150px 15px 150px 15px;
+    padding: 150px 15px 0px 15px;
 }
 
 .flex-item:not(:first-child) {
