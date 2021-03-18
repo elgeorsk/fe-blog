@@ -245,15 +245,21 @@ input.button {
 }
 
 .author {
-    text-align:right;
+    display: grid;
+    grid-template-areas:
+    'icn txt';
+    grid-template-columns: 1fr 130px;
+    float: right;
     padding: 5px;
 }
 
 .author span{
+    grid-area: txt;
     font-size: 12px;
 }
 
 .author img{
+    grid-area: icn;
     max-width: 2rem;
     max-height: 2rem;
 }
