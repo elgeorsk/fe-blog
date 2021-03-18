@@ -118,6 +118,17 @@ input.button {
     margin-top: 50px;
 }
 
+.articles img {
+    border-radius: 20px 60px;
+}
+
+.articles .title {
+    padding: 20px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -182,17 +193,6 @@ input.button {
 .column:hover .overlay{
     color: #014052;
     font-weight: 900;
-}
-
-.articles img {
-    border-radius: 20px 60px;
-}
-
-.articles .title {
-    padding: 20px;
-    font-size: 1em;
-    font-weight: 900;
-    text-transform: uppercase;
 }
 
 .pagination{

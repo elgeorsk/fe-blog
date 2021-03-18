@@ -42,10 +42,34 @@
         border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
 
+    .column{
+        margin:10px;
+    }
+
+    .articles{
+        margin-top: 5px;
+    }
+
+    .articles .title {
+        padding: 5px;
+        font-size: 12px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    blockquote{
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .overlay{
+        font-size: 12px;
+    }
+
     .pagination button {
         margin-right: 5px;
         font-size: 12px;
-        padding: 15px;
+        padding: 12px;
     }
 }
 
