@@ -172,40 +172,6 @@ input.button {
     overflow-y:auto;
 }
 
-.bpost h1 {
-    text-align: left;
-    margin: 15px;
-}
-
-.bpost {
-    padding: 20px;
-}
-
-.bpost p {
-    line-height: 1.4;
-    text-indent: 50px;
-    padding: 0px 10px 0px 0px;
-    text-align: justify;
-}
-
-.bpost figure {
-    margin: 0.5em;
-    padding: 0.5em;
-}
-
-.bpost figcaption {
-    margin-top: 20px;
-    font-style: italic;
-    font-size: 12px;
-}
-
-.bpost img {
-    max-width: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: auto;
-}
-
-
 .column:hover {
     border-radius: 20px 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -244,82 +210,8 @@ input.button {
     font-weight: bold;
 }
 
-.author {
-    display: grid;
-    grid-template-areas:
-    'icn txt';
-    grid-template-columns: 1fr 130px;
-    float: right;
-    padding: 5px;
-}
-
-.author span{
-    grid-area: txt;
-    font-size: 12px;
-}
-
-.author img{
-    grid-area: icn;
-    max-width: 2rem;
-    max-height: 2rem;
-}
-
 .footer{
     grid-area:ft;
     text-align: center;
     padding: 10px;
-}
-
-@media only screen and (max-width: 900px), only screen and (max-height: 700px){
-
-    .flex-item:first-child {
-        display: block;
-        background-color: #014052;
-        padding: 5px;
-    }
-
-    .header h6, .sidebar p {
-        display: none;
-    }
-
-    .navbar .button {
-        background-color: transparent;
-        border: none;
-        color: white;
-        padding: 5px 32px 5px;
-        margin-top: 0px;
-    }
-
-    .social-icon {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        height: 2.5rem;
-        width: 2.5rem;
-        background-color: #495057;
-        color: #fff;
-        border-radius: 100%;
-        font-size: 1.5rem;
-        margin: 5px;
-    }
-
-    .sidebar-profile .img-profile{
-        max-width: 5rem;
-        max-height: 5rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    }
-
-    .pagination button {
-        margin-right: 5px;
-        font-size: 12px;
-        padding: 15px;
-    }
-}
-
-@media(min-width: 900px){
-    .sidebar-profile .img-profile{
-        max-width: 8rem;
-        max-height: 8rem;
-        border: 0.5rem solid rgba(255, 255, 255, 0.2);
-    }
 }
