@@ -1,0 +1,53 @@
+.sidebar{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #014052, #A4E4F5, #014052);
+    margin: 20px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar .links {
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.linkedin:hover {
+    background-color: #0072b1;
+}
+
+.github:hover {
+    background-color: #c9510c;
+}

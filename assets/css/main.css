@@ -47,55 +47,9 @@ body {
     text-align:right;
 }
 
-.sidebar{
-    text-align: center;
-    color: white;
-    padding: 10px;
-}
-
 .links, .sidebar-profile:hover, .sidebar-profile:focus, .articles a {
     text-decoration: none;
     color: black;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-.rounded-circle {
-  border-radius: 50% !important;
-}
-
-hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, #014052, #A4E4F5, #014052);
-    margin: 20px;
-}
-
-.social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color: #495057;
-    color: #fff;
-    border-radius: 100%;
-    font-size: 1.5rem;
-    margin: 5px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar .links {
-    color: #fff;
-    padding: 5px;
-    margin: 5px;
 }
 
 input{
@@ -167,14 +121,6 @@ input.button {
     background-color: #02b3e4;
     cursor:pointer;
     color: white;
-}
-
-.linkedin:hover {
-    background-color: #0072b1;
-}
-
-.github:hover {
-    background-color: #c9510c;
 }
 
 .content{
